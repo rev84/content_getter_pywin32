@@ -10,7 +10,7 @@ https://sourceforge.net/projects/pywin32/
 ## 使い方
 
 起動後、     
-http://localhost:(content_getter.pyで設定したポート番号)/（URL）      
+`http://localhost:(content_getter.pyで設定したポート番号)/（URL）`  
 にアクセスすると、以下のJSONを返す
 
 ```
