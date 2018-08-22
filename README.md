@@ -4,10 +4,24 @@ python2系。
 ローカルWebサーバとして動作し、Web上のコンテンツを取得してJSONで返すスクリプト。  
 Windowsサービスとして常駐する。
 
-pywin32を使う。
+pywin32を使う  
 https://sourceforge.net/projects/pywin32/
 
-# インストール方法
+## 使い方
+
+起動後、     
+http://localhost:(content_getter.pyで設定したポート番号)/（URL）      
+にアクセスすると、以下のJSONを返す
+
+```
+{
+  "request" : "取得したコンテンツ",
+  "url" : "取得対象としたページのURL"
+}
+```
+
+
+## インストール方法
 
 - （pywin32をインストールしてない場合）pywin32をインストール
 - コマンドプロンプトを管理者権限で起動
