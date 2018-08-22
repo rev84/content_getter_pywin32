@@ -80,7 +80,8 @@ class MyRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     # 結果を返すためのdic
     res = {
-      "response": fres
+      "response": fres,
+      "url": url
     }
 
     # 結果のJSON
